@@ -1,0 +1,101 @@
+﻿<Controls:MetroWindow x:Class="AranduraC.Modulos.Produccion.ComboProducto"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:Tools="clr-namespace:Controls;assembly=Controls"
+        xmlns:local="clr-namespace:AranduraC.Modulos.Produccion"
+        mc:Ignorable="d"
+        Title="Crear Producto" Height="600" Width="1000" MinHeight="600" MinWidth="1000" Loaded="MetroWindow_Loaded">
+    <Grid>
+        <!--<Tools:toolBar x:Name="cgtBar" VerticalAlignment="Top" 
+                       Ver_Anular="Collapsed" 
+                       Ver_Aprobar="Collapsed" 
+                       Ver_Credito="Collapsed"
+                       Ver_Imprimir="Collapsed"
+                       Ver_Reporte="Collapsed"/>-->
+        <Grid VerticalAlignment="Top" Height="30" Margin="0,15,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="55"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="60"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="80"/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Insumo:" VerticalAlignment="Center" Grid.Column="0"/>
+            <ComboBox x:Name="cbxInsumo" Grid.Column="1" IsEditable="True" SelectedValuePath="id" DisplayMemberPath="descripcion"/>
+            <Label Content="Cantidad:" Grid.Column="2"/>
+            <TextBox x:Name="txbCantidadAdd" Grid.Column="3" KeyDown="isNumeric"/>
+            <Button x:Name="btnCrear" Content="Crear" Grid.Column="4" Margin="2,0,0,0" Click="btnCrear_Click"/>
+            <Button x:Name="btnCanelar" Content="Cancelar" Grid.Column="5" Margin="1,0,2,0" Click="btnCanelar_Click"/>
+        </Grid>
+        <Grid Margin="0,55,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50*"/>
+                <ColumnDefinition Width="50*"/>
+            </Grid.ColumnDefinitions>
+            <Grid x:Name="grdExistencia" Grid.Column="0">
+                <Label Content="Productos Existentes" TextElement.FontSize="15" TextElement.FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                <DataGrid x:Name="dgvInsumos" Margin="0,30,2,0" SelectionMode="Single" SelectedValuePath="id"
+                          AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False"
+                          Background="WhiteSmoke" SelectionChanged="dgvInsumos_SelectionChanged">
+
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="id_sku" Binding="{Binding id}" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="Código" Binding="{Binding codigo}" IsReadOnly="True"/>
+                        <DataGridTextColumn Header="Producto" Binding="{Binding descripcion}" Width="50*" IsReadOnly="True"/>
+                        <DataGridTextColumn Header="Cantidad Real" Width="20*" Binding="{Binding cantidad}" IsReadOnly="True"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40*"/>
+                    <RowDefinition Height="60*"/>
+                </Grid.RowDefinitions>
+
+                <Grid x:Name="grdPreparar">
+                    <Label Content="Preparar" TextElement.FontSize="15" TextElement.FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                    <Grid x:Name="grdPrepararCampos" Height="120" VerticalAlignment="Top" Margin="0,30,30,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="80"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="40"/>
+                            <RowDefinition Height="40"/>
+                            <RowDefinition Height="40"/>
+                        </Grid.RowDefinitions>
+
+                        <Label Content="Código:" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                        <TextBox x:Name="txbCodigo" Grid.Column="1" Grid.Row="0" VerticalAlignment="Center"/>
+                        <Label Content="Insumo:" Grid.Column="0" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                        <TextBox x:Name="txbInsumo" Grid.Column="1" Grid.Row="1" VerticalAlignment="Center"/>
+                        <Label Content="Cantidad:" Grid.Column="0" Grid.Row="2" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                        <TextBox x:Name="txbCantidad" Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" KeyDown="isNumeric" LostFocus="txbCantidad_LostFocus"/>
+                    </Grid>
+
+                    <Grid x:Name="grdButtonsPreparar" VerticalAlignment="Top" Margin="0,160,0,0">
+                        <Button x:Name="btnAdd" Content="Agregar" Width="70" Margin="0,0,80,0" Click="btnAdd_Click"/>
+                        <Button x:Name="btnDel" Content="Eliminar" Width="70" Margin="80,0,0,0" Click="btnDel_Click"/>
+                    </Grid>
+                </Grid>
+                <Grid x:Name="grdReceta" Grid.Row="1">
+                    <Label Content="Insumos a Procesar" TextElement.FontSize="15" TextElement.FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                    <DataGrid x:Name="dgvReceta" Margin="2,30,0,0" SelectionMode="Single"
+                              AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False"
+                              Background="WhiteSmoke">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="id" Binding="{Binding id}" IsReadOnly="True" Visibility="Collapsed"/>
+                            <DataGridTextColumn Header="Código" Binding="{Binding codigo}" IsReadOnly="True"/>
+                            <DataGridTextColumn Header="Insumo" Width="50*" Binding="{Binding descripcion}" IsReadOnly="True"/>
+                            <DataGridTextColumn Header="Cantidad" Width="20*" Binding="{Binding cantidad}" IsReadOnly="True"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</Controls:MetroWindow>

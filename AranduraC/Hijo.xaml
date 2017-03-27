@@ -1,0 +1,39 @@
+﻿<Window x:Class="AranduraC.Hijo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Hijo" Height="601.24" Width="802.71" >
+
+    <Grid Background="WhiteSmoke">
+        <Grid Height="80" Margin="0,0,0,490" Background="White">
+            <Button Name="btnNuevo" Content="Nuevo" Height="30" Width="80" Margin="10,27,670,23" Click="btnNuevo_Click"/>
+            <Button Name="btnEditar" Content="Editar" Height="30" Width="80" Margin="95,27,585,23" Click="btnEditar_Click"/>
+            <Button Name="btnBorrar" Content="Borrar" Height="30" Width="80" Margin="180,27,500,23" Click="btnBorrar_Click"/>
+            <Button Name="btnGuardar" Content="Guardar" Height="30" Width="80" Margin="316,27,364,23" Click="btnGuardar_Click"/>
+            <Button Name="btnCancelar" Content="Cancelar" Height="30" Width="80" Margin="401,27,279,23" Click="btnCancelar_Click"/>
+        </Grid>
+        <Grid Name="grdGrilla" Margin="0,85,470,0" >
+            <DataGrid Name="dgvUsuarios" SelectedValuePath="id_user" AutoGenerateColumns="False" HorizontalAlignment="Left" Width="290">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Nombre" Binding="{Binding nombre}" Width="*"/>
+                    <DataGridTextColumn Header="Apellido" Binding="{Binding apellido}" Width="*"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+        <Grid Name="grdCampos" Margin="295,85,0,0" HorizontalAlignment="Left" Width="449">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="67*"/>
+                <RowDefinition Height="71*"/>
+                <RowDefinition Height="347*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="7*"/>
+                <ColumnDefinition Width="24*"/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Nombre :" Grid.Row="0" Grid.Column="0" VerticalAlignment="Bottom" HorizontalAlignment="Right"/>
+            <Label Content="Apellido :" Grid.Row="1" Grid.Column="0" VerticalAlignment="Bottom" HorizontalAlignment="Right"/>
+            <TextBox Name="tbxNombre" Grid.Row="0" Grid.Column="1" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="150"  Text="{Binding SelectedItem.nombre, ElementName=dgvUsuarios, Mode=twoWay, UpdateSourceTrigger=PropertyChanged}" />
+            <TextBox Name="tbxApellido" Grid.Row="1" Grid.Column="1" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="150"  Text="{Binding SelectedItem.apellido, ElementName=dgvUsuarios, Mode=twoWay, UpdateSourceTrigger=PropertyChanged}" />
+
+        </Grid>
+    </Grid>
+</Window>

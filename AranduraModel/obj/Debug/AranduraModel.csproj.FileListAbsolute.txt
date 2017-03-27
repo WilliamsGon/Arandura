@@ -1,0 +1,39 @@
+C:\Arandura\AranduraModel\bin\Debug\AranduraModel.dll.config
+C:\Arandura\AranduraModel\bin\Debug\AranduraModel.dll
+C:\Arandura\AranduraModel\bin\Debug\AranduraModel.pdb
+C:\Arandura\AranduraModel\bin\Debug\DataAccessLayer.dll
+C:\Arandura\AranduraModel\bin\Debug\MahApps.Metro.dll
+C:\Arandura\AranduraModel\bin\Debug\MySql.Data.dll
+C:\Arandura\AranduraModel\bin\Debug\System.Windows.Interactivity.dll
+C:\Arandura\AranduraModel\bin\Debug\DataAccessLayer.pdb
+C:\Arandura\AranduraModel\bin\Debug\MahApps.Metro.pdb
+C:\Arandura\AranduraModel\bin\Debug\MahApps.Metro.xml
+C:\Arandura\AranduraModel\obj\Debug\AranduraModel.csprojResolveAssemblyReference.cache
+C:\Arandura\AranduraModel\obj\Debug\AranduraModel.dll
+C:\Arandura\AranduraModel\obj\Debug\AranduraModel.pdb
+D:\Arandura old\AranduraModel\bin\Debug\AranduraModel.dll.config
+D:\Arandura old\AranduraModel\bin\Debug\AranduraModel.dll
+D:\Arandura old\AranduraModel\bin\Debug\AranduraModel.pdb
+D:\Arandura old\AranduraModel\bin\Debug\DataAccessLayer.dll
+D:\Arandura old\AranduraModel\bin\Debug\MahApps.Metro.dll
+D:\Arandura old\AranduraModel\bin\Debug\MySql.Data.dll
+D:\Arandura old\AranduraModel\bin\Debug\System.Windows.Interactivity.dll
+D:\Arandura old\AranduraModel\bin\Debug\DataAccessLayer.pdb
+D:\Arandura old\AranduraModel\bin\Debug\MahApps.Metro.pdb
+D:\Arandura old\AranduraModel\bin\Debug\MahApps.Metro.xml
+D:\Arandura old\AranduraModel\obj\Debug\AranduraModel.csprojResolveAssemblyReference.cache
+D:\Arandura old\AranduraModel\obj\Debug\AranduraModel.dll
+D:\Arandura old\AranduraModel\obj\Debug\AranduraModel.pdb
+D:\Proyectos\Project Arandura\AranduraModel\bin\Debug\AranduraModel.dll.config
+D:\Proyectos\Project Arandura\AranduraModel\bin\Debug\AranduraModel.dll
+D:\Proyectos\Project Arandura\AranduraModel\bin\Debug\AranduraModel.pdb
+D:\Proyectos\Project Arandura\AranduraModel\bin\Debug\DataAccessLayer.dll
+D:\Proyectos\Project Arandura\AranduraModel\bin\Debug\MahApps.Metro.dll
+D:\Proyectos\Project Arandura\AranduraModel\bin\Debug\MySql.Data.dll
+D:\Proyectos\Project Arandura\AranduraModel\bin\Debug\System.Windows.Interactivity.dll
+D:\Proyectos\Project Arandura\AranduraModel\bin\Debug\DataAccessLayer.pdb
+D:\Proyectos\Project Arandura\AranduraModel\bin\Debug\MahApps.Metro.pdb
+D:\Proyectos\Project Arandura\AranduraModel\bin\Debug\MahApps.Metro.xml
+D:\Proyectos\Project Arandura\AranduraModel\obj\Debug\AranduraModel.csprojResolveAssemblyReference.cache
+D:\Proyectos\Project Arandura\AranduraModel\obj\Debug\AranduraModel.dll
+D:\Proyectos\Project Arandura\AranduraModel\obj\Debug\AranduraModel.pdb

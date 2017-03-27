@@ -1,0 +1,33 @@
+C:\Arandura\MahApps.Metro.Resources\bin\Debug\MahApps.Metro.Resources.dll.config
+C:\Arandura\MahApps.Metro.Resources\bin\Debug\MahApps.Metro.Resources.dll
+C:\Arandura\MahApps.Metro.Resources\bin\Debug\MahApps.Metro.Resources.pdb
+C:\Arandura\MahApps.Metro.Resources\bin\Debug\MahApps.Metro.dll
+C:\Arandura\MahApps.Metro.Resources\bin\Debug\MySql.Data.dll
+C:\Arandura\MahApps.Metro.Resources\bin\Debug\System.Windows.Interactivity.dll
+C:\Arandura\MahApps.Metro.Resources\bin\Debug\MahApps.Metro.pdb
+C:\Arandura\MahApps.Metro.Resources\bin\Debug\MahApps.Metro.xml
+C:\Arandura\MahApps.Metro.Resources\obj\Debug\MahApps.Metro.Resources.csprojResolveAssemblyReference.cache
+C:\Arandura\MahApps.Metro.Resources\obj\Debug\Icons.baml
+C:\Arandura\MahApps.Metro.Resources\obj\Debug\Icons.g.cs
+C:\Arandura\MahApps.Metro.Resources\obj\Debug\MahApps.Metro.Resources_MarkupCompile.cache
+C:\Arandura\MahApps.Metro.Resources\obj\Debug\MahApps.Metro.Resources.g.resources
+C:\Arandura\MahApps.Metro.Resources\obj\Debug\MahApps.Metro.Resources.Properties.Resources.resources
+C:\Arandura\MahApps.Metro.Resources\obj\Debug\MahApps.Metro.Resources.csproj.GenerateResource.Cache
+C:\Arandura\MahApps.Metro.Resources\obj\Debug\MahApps.Metro.Resources.dll
+C:\Arandura\MahApps.Metro.Resources\obj\Debug\MahApps.Metro.Resources.pdb
+D:\Arandura old\MahApps.Metro.Resources\bin\Debug\MahApps.Metro.Resources.dll.config
+D:\Arandura old\MahApps.Metro.Resources\bin\Debug\MahApps.Metro.Resources.dll
+D:\Arandura old\MahApps.Metro.Resources\bin\Debug\MahApps.Metro.Resources.pdb
+D:\Arandura old\MahApps.Metro.Resources\bin\Debug\MahApps.Metro.dll
+D:\Arandura old\MahApps.Metro.Resources\bin\Debug\MySql.Data.dll
+D:\Arandura old\MahApps.Metro.Resources\bin\Debug\System.Windows.Interactivity.dll
+D:\Arandura old\MahApps.Metro.Resources\bin\Debug\MahApps.Metro.pdb
+D:\Arandura old\MahApps.Metro.Resources\bin\Debug\MahApps.Metro.xml
+D:\Arandura old\MahApps.Metro.Resources\obj\Debug\Icons.baml
+D:\Arandura old\MahApps.Metro.Resources\obj\Debug\Icons.g.cs
+D:\Arandura old\MahApps.Metro.Resources\obj\Debug\MahApps.Metro.Resources_MarkupCompile.cache
+D:\Arandura old\MahApps.Metro.Resources\obj\Debug\MahApps.Metro.Resources.g.resources
+D:\Arandura old\MahApps.Metro.Resources\obj\Debug\MahApps.Metro.Resources.Properties.Resources.resources
+D:\Arandura old\MahApps.Metro.Resources\obj\Debug\MahApps.Metro.Resources.csproj.GenerateResource.Cache
+D:\Arandura old\MahApps.Metro.Resources\obj\Debug\MahApps.Metro.Resources.dll
+D:\Arandura old\MahApps.Metro.Resources\obj\Debug\MahApps.Metro.Resources.pdb

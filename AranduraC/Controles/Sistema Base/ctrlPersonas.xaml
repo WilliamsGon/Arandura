@@ -1,0 +1,21 @@
+﻿<Controls:MetroWindow x:Class="AranduraC.Controles.Sistema_Base.ctrlPersonas"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:AranduraC.Controles.Sistema_Base"
+             xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+             mc:Ignorable="d" 
+             d:DesignHeight="150" d:DesignWidth="200" Loaded="UserControl_Loaded">
+    <Grid>
+        <DataGrid x:Name="dgvPersonas" CanUserAddRows="False" CanUserDeleteRows="False" AutoGenerateColumns="False"
+                  ScrollViewer.VerticalScrollBarVisibility="Auto"
+                  ScrollViewer.HorizontalScrollBarVisibility="Hidden" Background="WhiteSmoke" MouseDoubleClick="dgvPersonas_MouseDoubleClick" SelectedValuePath="id">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Código" Binding="{Binding id}" IsReadOnly="True" Width="20*"/>
+                <DataGridTextColumn Header="Apellido" Binding="{Binding apellido}" IsReadOnly="True" Width="40*"/>
+                <DataGridTextColumn Header="Nombre" Binding="{Binding nombre}" IsReadOnly="True" Width="40*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Controls:MetroWindow>

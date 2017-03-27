@@ -1,0 +1,194 @@
+C:\Arandura\AranduraC\bin\Debug\AranduraC.exe.config
+C:\Arandura\AranduraC\bin\Debug\AranduraC.exe
+C:\Arandura\AranduraC\bin\Debug\AranduraC.pdb
+C:\Arandura\AranduraC\bin\Debug\AranduraModel.dll
+C:\Arandura\AranduraC\bin\Debug\Controls.dll
+C:\Arandura\AranduraC\bin\Debug\DataAccessLayer.dll
+C:\Arandura\AranduraC\bin\Debug\MahApps.Metro.dll
+C:\Arandura\AranduraC\bin\Debug\MahApps.Metro.Resources.dll
+C:\Arandura\AranduraC\bin\Debug\MySql.Data.dll
+C:\Arandura\AranduraC\bin\Debug\System.Windows.Interactivity.dll
+C:\Arandura\AranduraC\bin\Debug\AranduraModel.pdb
+C:\Arandura\AranduraC\bin\Debug\Controls.pdb
+C:\Arandura\AranduraC\bin\Debug\DataAccessLayer.pdb
+C:\Arandura\AranduraC\bin\Debug\MahApps.Metro.Resources.pdb
+C:\Arandura\AranduraC\bin\Debug\MahApps.Metro.pdb
+C:\Arandura\AranduraC\bin\Debug\MahApps.Metro.xml
+C:\Arandura\AranduraC\obj\Debug\AranduraC.csprojResolveAssemblyReference.cache
+C:\Arandura\AranduraC\obj\Debug\Controles\pageLogin.baml
+C:\Arandura\AranduraC\obj\Debug\Hijo.baml
+C:\Arandura\AranduraC\obj\Debug\Modulos\pageModulos.baml
+C:\Arandura\AranduraC\obj\Debug\VentanasDiseños\admFormatos.baml
+C:\Arandura\AranduraC\obj\Debug\VentanasDiseños\admPedidos.baml
+C:\Arandura\AranduraC\obj\Debug\VentanasDiseños\listaPedidos.baml
+C:\Arandura\AranduraC\obj\Debug\VentanasDiseños\ordenProduccion.baml
+C:\Arandura\AranduraC\obj\Debug\VentanasDiseños\OrdenUsuario.baml
+C:\Arandura\AranduraC\obj\Debug\App.baml
+C:\Arandura\AranduraC\obj\Debug\Controles\pageLogin.g.cs
+C:\Arandura\AranduraC\obj\Debug\Hijo.g.cs
+C:\Arandura\AranduraC\obj\Debug\Hijo2.g.cs
+C:\Arandura\AranduraC\obj\Debug\MainWindow.g.cs
+C:\Arandura\AranduraC\obj\Debug\Modulos\pageModulos.g.cs
+C:\Arandura\AranduraC\obj\Debug\Modulos\Produccion\Productos.g.cs
+C:\Arandura\AranduraC\obj\Debug\VentanasDiseños\admFormatos.g.cs
+C:\Arandura\AranduraC\obj\Debug\VentanasDiseños\admPedidos.g.cs
+C:\Arandura\AranduraC\obj\Debug\VentanasDiseños\listaPedidos.g.cs
+C:\Arandura\AranduraC\obj\Debug\VentanasDiseños\ordenProduccion.g.cs
+C:\Arandura\AranduraC\obj\Debug\VentanasDiseños\OrdenUsuario.g.cs
+C:\Arandura\AranduraC\obj\Debug\App.g.cs
+C:\Arandura\AranduraC\obj\Debug\AranduraC_MarkupCompile.cache
+C:\Arandura\AranduraC\obj\Debug\AranduraC_MarkupCompile.lref
+C:\Arandura\AranduraC\obj\Debug\Hijo2.baml
+C:\Arandura\AranduraC\obj\Debug\MainWindow.baml
+C:\Arandura\AranduraC\obj\Debug\Modulos\Produccion\Productos.baml
+C:\Arandura\AranduraC\obj\Debug\AranduraC.g.resources
+C:\Arandura\AranduraC\obj\Debug\AranduraC.Properties.Resources.resources
+C:\Arandura\AranduraC\obj\Debug\AranduraC.csproj.GenerateResource.Cache
+C:\Arandura\AranduraC\obj\Debug\AranduraC.exe
+C:\Arandura\AranduraC\obj\Debug\AranduraC.pdb
+D:\Arandura old\AranduraC\bin\Debug\AranduraC.exe.config
+D:\Arandura old\AranduraC\bin\Debug\AranduraC.exe.manifest
+D:\Arandura old\AranduraC\bin\Debug\AranduraC.application
+D:\Arandura old\AranduraC\bin\Debug\AranduraC.exe
+D:\Arandura old\AranduraC\bin\Debug\AranduraC.pdb
+D:\Arandura old\AranduraC\bin\Debug\AranduraModel.dll
+D:\Arandura old\AranduraC\bin\Debug\Controls.dll
+D:\Arandura old\AranduraC\bin\Debug\DataAccessLayer.dll
+D:\Arandura old\AranduraC\bin\Debug\MahApps.Metro.dll
+D:\Arandura old\AranduraC\bin\Debug\MahApps.Metro.Resources.dll
+D:\Arandura old\AranduraC\bin\Debug\MySql.Data.dll
+D:\Arandura old\AranduraC\bin\Debug\System.Windows.Interactivity.dll
+D:\Arandura old\AranduraC\bin\Debug\AranduraModel.pdb
+D:\Arandura old\AranduraC\bin\Debug\Controls.pdb
+D:\Arandura old\AranduraC\bin\Debug\DataAccessLayer.pdb
+D:\Arandura old\AranduraC\bin\Debug\MahApps.Metro.Resources.pdb
+D:\Arandura old\AranduraC\bin\Debug\MahApps.Metro.pdb
+D:\Arandura old\AranduraC\bin\Debug\MahApps.Metro.xml
+D:\Arandura old\AranduraC\obj\Debug\AranduraC.csprojResolveAssemblyReference.cache
+D:\Arandura old\AranduraC\obj\Debug\Controles\pageLogin.baml
+D:\Arandura old\AranduraC\obj\Debug\Hijo.baml
+D:\Arandura old\AranduraC\obj\Debug\Modulos\pageModulos.baml
+D:\Arandura old\AranduraC\obj\Debug\VentanasDiseños\admFormatos.baml
+D:\Arandura old\AranduraC\obj\Debug\VentanasDiseños\admPedidos.baml
+D:\Arandura old\AranduraC\obj\Debug\VentanasDiseños\listaPedidos.baml
+D:\Arandura old\AranduraC\obj\Debug\VentanasDiseños\ordenProduccion.baml
+D:\Arandura old\AranduraC\obj\Debug\VentanasDiseños\OrdenUsuario.baml
+D:\Arandura old\AranduraC\obj\Debug\App.baml
+D:\Arandura old\AranduraC\obj\Debug\Controles\pageLogin.g.cs
+D:\Arandura old\AranduraC\obj\Debug\Controles\Sistema Base\ctrlPersonas.g.cs
+D:\Arandura old\AranduraC\obj\Debug\Hijo.g.cs
+D:\Arandura old\AranduraC\obj\Debug\Hijo2.g.cs
+D:\Arandura old\AranduraC\obj\Debug\MainWindow.g.cs
+D:\Arandura old\AranduraC\obj\Debug\Modulos\pageModulos.g.cs
+D:\Arandura old\AranduraC\obj\Debug\Modulos\Produccion\ComboMateriaPrima.g.cs
+D:\Arandura old\AranduraC\obj\Debug\Modulos\Produccion\ComboProducto.g.cs
+D:\Arandura old\AranduraC\obj\Debug\Modulos\Produccion\Insumos.g.cs
+D:\Arandura old\AranduraC\obj\Debug\Modulos\Produccion\ListaPedidos.g.cs
+D:\Arandura old\AranduraC\obj\Debug\Modulos\Produccion\OrdenProduccion.g.cs
+D:\Arandura old\AranduraC\obj\Debug\Modulos\Produccion\Productos.g.cs
+D:\Arandura old\AranduraC\obj\Debug\Modulos\Produccion\Seguimiento.g.cs
+D:\Arandura old\AranduraC\obj\Debug\Modulos\Sistema Base\Depositos.g.cs
+D:\Arandura old\AranduraC\obj\Debug\Modulos\Sistema Base\Usuarios.g.cs
+D:\Arandura old\AranduraC\obj\Debug\VentanasDiseños\admFormatos.g.cs
+D:\Arandura old\AranduraC\obj\Debug\VentanasDiseños\admPedidos.g.cs
+D:\Arandura old\AranduraC\obj\Debug\VentanasDiseños\listaPedidos.g.cs
+D:\Arandura old\AranduraC\obj\Debug\VentanasDiseños\ordenProduccion.g.cs
+D:\Arandura old\AranduraC\obj\Debug\VentanasDiseños\OrdenUsuario.g.cs
+D:\Arandura old\AranduraC\obj\Debug\App.g.cs
+D:\Arandura old\AranduraC\obj\Debug\AranduraC_MarkupCompile.cache
+D:\Arandura old\AranduraC\obj\Debug\AranduraC_MarkupCompile.lref
+D:\Arandura old\AranduraC\obj\Debug\Controles\Sistema Base\ctrlPersonas.baml
+D:\Arandura old\AranduraC\obj\Debug\Hijo2.baml
+D:\Arandura old\AranduraC\obj\Debug\MainWindow.baml
+D:\Arandura old\AranduraC\obj\Debug\Modulos\Produccion\ComboMateriaPrima.baml
+D:\Arandura old\AranduraC\obj\Debug\Modulos\Produccion\ComboProducto.baml
+D:\Arandura old\AranduraC\obj\Debug\Modulos\Produccion\Insumos.baml
+D:\Arandura old\AranduraC\obj\Debug\Modulos\Produccion\ListaPedidos.baml
+D:\Arandura old\AranduraC\obj\Debug\Modulos\Produccion\OrdenProduccion.baml
+D:\Arandura old\AranduraC\obj\Debug\Modulos\Produccion\Productos.baml
+D:\Arandura old\AranduraC\obj\Debug\Modulos\Produccion\Seguimiento.baml
+D:\Arandura old\AranduraC\obj\Debug\Modulos\Sistema Base\Depositos.baml
+D:\Arandura old\AranduraC\obj\Debug\Modulos\Sistema Base\Usuarios.baml
+D:\Arandura old\AranduraC\obj\Debug\AranduraC.g.resources
+D:\Arandura old\AranduraC\obj\Debug\AranduraC.Properties.Resources.resources
+D:\Arandura old\AranduraC\obj\Debug\AranduraC.csproj.GenerateResource.Cache
+D:\Arandura old\AranduraC\obj\Debug\AranduraC.TrustInfo.xml
+D:\Arandura old\AranduraC\obj\Debug\AranduraC.exe.manifest
+D:\Arandura old\AranduraC\obj\Debug\AranduraC.application
+D:\Arandura old\AranduraC\obj\Debug\AranduraC.exe
+D:\Arandura old\AranduraC\obj\Debug\AranduraC.pdb
+D:\Arandura\AranduraC\bin\Debug\AranduraC.exe.config
+D:\Arandura\AranduraC\obj\Debug\AranduraC.exe
+D:\Arandura\AranduraC\obj\Debug\AranduraC.pdb
+D:\Project Arandura\AranduraC\bin\Debug\AranduraC.exe.config
+D:\Proyectos\Project Arandura\AranduraC\bin\Debug\AranduraC.exe.config
+D:\Proyectos\Project Arandura\AranduraC\bin\Debug\AranduraC.exe.manifest
+D:\Proyectos\Project Arandura\AranduraC\bin\Debug\AranduraC.application
+D:\Proyectos\Project Arandura\AranduraC\bin\Debug\AranduraC.exe
+D:\Proyectos\Project Arandura\AranduraC\bin\Debug\AranduraC.pdb
+D:\Proyectos\Project Arandura\AranduraC\bin\Debug\AranduraModel.dll
+D:\Proyectos\Project Arandura\AranduraC\bin\Debug\Controls.dll
+D:\Proyectos\Project Arandura\AranduraC\bin\Debug\DataAccessLayer.dll
+D:\Proyectos\Project Arandura\AranduraC\bin\Debug\MahApps.Metro.dll
+D:\Proyectos\Project Arandura\AranduraC\bin\Debug\MahApps.Metro.Resources.dll
+D:\Proyectos\Project Arandura\AranduraC\bin\Debug\MySql.Data.dll
+D:\Proyectos\Project Arandura\AranduraC\bin\Debug\System.Windows.Interactivity.dll
+D:\Proyectos\Project Arandura\AranduraC\bin\Debug\AranduraModel.pdb
+D:\Proyectos\Project Arandura\AranduraC\bin\Debug\Controls.pdb
+D:\Proyectos\Project Arandura\AranduraC\bin\Debug\DataAccessLayer.pdb
+D:\Proyectos\Project Arandura\AranduraC\bin\Debug\MahApps.Metro.Resources.pdb
+D:\Proyectos\Project Arandura\AranduraC\bin\Debug\MahApps.Metro.pdb
+D:\Proyectos\Project Arandura\AranduraC\bin\Debug\MahApps.Metro.xml
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\AranduraC.csprojResolveAssemblyReference.cache
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\Controles\pageLogin.baml
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\Hijo.baml
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\Modulos\pageModulos.baml
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\VentanasDiseños\admFormatos.baml
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\VentanasDiseños\admPedidos.baml
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\VentanasDiseños\listaPedidos.baml
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\VentanasDiseños\ordenProduccion.baml
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\VentanasDiseños\OrdenUsuario.baml
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\App.baml
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\Controles\pageLogin.g.cs
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\Controles\Sistema Base\ctrlPersonas.g.cs
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\Hijo.g.cs
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\Hijo2.g.cs
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\MainWindow.g.cs
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\Modulos\pageModulos.g.cs
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\Modulos\Produccion\ComboMateriaPrima.g.cs
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\Modulos\Produccion\ComboProducto.g.cs
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\Modulos\Produccion\Insumos.g.cs
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\Modulos\Produccion\ListaPedidos.g.cs
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\Modulos\Produccion\OrdenProduccion.g.cs
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\Modulos\Produccion\Productos.g.cs
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\Modulos\Produccion\Seguimiento.g.cs
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\Modulos\Sistema Base\Depositos.g.cs
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\Modulos\Sistema Base\Usuarios.g.cs
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\VentanasDiseños\admFormatos.g.cs
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\VentanasDiseños\admPedidos.g.cs
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\VentanasDiseños\listaPedidos.g.cs
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\VentanasDiseños\ordenProduccion.g.cs
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\VentanasDiseños\OrdenUsuario.g.cs
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\App.g.cs
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\AranduraC_MarkupCompile.cache
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\AranduraC_MarkupCompile.lref
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\Controles\Sistema Base\ctrlPersonas.baml
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\Hijo2.baml
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\MainWindow.baml
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\Modulos\Produccion\ComboMateriaPrima.baml
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\Modulos\Produccion\ComboProducto.baml
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\Modulos\Produccion\Insumos.baml
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\Modulos\Produccion\ListaPedidos.baml
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\Modulos\Produccion\OrdenProduccion.baml
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\Modulos\Produccion\Productos.baml
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\Modulos\Produccion\Seguimiento.baml
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\Modulos\Sistema Base\Depositos.baml
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\Modulos\Sistema Base\Usuarios.baml
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\AranduraC.g.resources
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\AranduraC.Properties.Resources.resources
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\AranduraC.csproj.GenerateResource.Cache
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\AranduraC.TrustInfo.xml
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\AranduraC.exe.manifest
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\AranduraC.application
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\AranduraC.exe
+D:\Proyectos\Project Arandura\AranduraC\obj\Debug\AranduraC.pdb

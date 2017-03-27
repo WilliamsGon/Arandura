@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A2BC6059-94CE-44B3-926E-3B5E6C864725}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AranduraC</RootNamespace>
+    <AssemblyName>AranduraC</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\ProjectArandura\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>\\192.168.1.101\ProjectArandura\</InstallUrl>
+    <ProductName>Arandura</ProductName>
+    <PublisherName>Williams</PublisherName>
+    <SuiteName>Arandura</SuiteName>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>6</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>AranduraC.App</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>292BCE51FDADA5BA87C1BA28854FEE2CEA6650E7</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>AranduraC_ClaveTemporal.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MahApps.Metro, Version=1.2.4.0, Culture=neutral, PublicKeyToken=f4fb5a3c4d1e5b4f, processorArchitecture=MSIL">
+      <HintPath>..\packages\MahApps.Metro.1.2.4.0\lib\net45\MahApps.Metro.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.9.7\lib\net45\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\MahApps.Metro.1.2.4.0\lib\net45\System.Windows.Interactivity.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Controles\pageLogin.xaml.cs">
+      <DependentUpon>pageLogin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\Sistema Base\ctrlPersonas.xaml.cs">
+      <DependentUpon>ctrlPersonas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\pageModulos.xaml.cs">
+      <DependentUpon>pageModulos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Produccion\ComboMateriaPrima.xaml.cs">
+      <DependentUpon>ComboMateriaPrima.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Produccion\ComboProducto.xaml.cs">
+      <DependentUpon>ComboProducto.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Produccion\Insumos.xaml.cs">
+      <DependentUpon>Insumos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Produccion\ListaPedidos.xaml.cs">
+      <DependentUpon>ListaPedidos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Produccion\OrdenProduccion.xaml.cs">
+      <DependentUpon>OrdenProduccion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Produccion\Productos.xaml.cs">
+      <DependentUpon>Productos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Produccion\Seguimiento.xaml.cs">
+      <DependentUpon>Seguimiento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Sistema Base\Depositos.xaml.cs">
+      <DependentUpon>Depositos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Sistema Base\Usuarios.xaml.cs">
+      <DependentUpon>Usuarios.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VentanasDiseños\admFormatos.xaml.cs">
+      <DependentUpon>admFormatos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VentanasDiseños\admPedidos.xaml.cs">
+      <DependentUpon>admPedidos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VentanasDiseños\listaPedidos.xaml.cs">
+      <DependentUpon>listaPedidos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VentanasDiseños\ordenProduccion.xaml.cs">
+      <DependentUpon>ordenProduccion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VentanasDiseños\OrdenUsuario.xaml.cs">
+      <DependentUpon>OrdenUsuario.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Controles\pageLogin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controles\Sistema Base\ctrlPersonas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Hijo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Hijo2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Hijo.xaml.cs">
+      <DependentUpon>Hijo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hijo2.xaml.cs">
+      <DependentUpon>Hijo2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Modulos\pageModulos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modulos\Produccion\ComboMateriaPrima.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modulos\Produccion\ComboProducto.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Modulos\Produccion\Insumos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modulos\Produccion\ListaPedidos.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Modulos\Produccion\OrdenProduccion.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Modulos\Produccion\Productos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modulos\Produccion\Seguimiento.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Modulos\Sistema Base\Depositos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modulos\Sistema Base\Usuarios.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VentanasDiseños\admFormatos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VentanasDiseños\admPedidos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VentanasDiseños\listaPedidos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VentanasDiseños\ordenProduccion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VentanasDiseños\OrdenUsuario.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="AranduraC_ClaveTemporal.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\modCompras.png" />
+    <Resource Include="Images\Menu\Configuracion.png" />
+    <Resource Include="Images\modContabilidad.png" />
+    <Resource Include="Images\modFav.png" />
+    <Resource Include="Images\modGerencia.png" />
+    <Resource Include="Images\modLink.png" />
+    <Resource Include="Images\modProductionOld.png" />
+    <Resource Include="Images\modProject.png" />
+    <Resource Include="Images\modRRHH.png" />
+    <Resource Include="Images\modStock.png" />
+    <Resource Include="Images\modVentas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AranduraModel\AranduraModel.csproj">
+      <Project>{e25140d1-980e-4e2f-8063-9fb3888e5b97}</Project>
+      <Name>AranduraModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Controls\Controls.csproj">
+      <Project>{bd6f448d-4929-4492-979b-02a7cd547d17}</Project>
+      <Name>Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
+      <Project>{2cd5a668-2e9f-45a0-9235-7f919bbf5749}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MahApps.Metro.Resources\MahApps.Metro.Resources.csproj">
+      <Project>{e708ac99-605b-42a0-8d20-abca8fe42dd2}</Project>
+      <Name>MahApps.Metro.Resources</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Modulos\Compra\" />
+    <Folder Include="Modulos\RRHH\" />
+    <Folder Include="Modulos\Venta\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\modHome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\modProduction.png" />
+    <Resource Include="Images\modShopping.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\library.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\IconTool\add_48dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Menu\Produccion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\avatarUnknown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Ventanas\Productos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Ventanas\Insumos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Ventanas\Pedidos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Ventanas\Orden.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Ventanas\Seguimiento.png" />
+    <Resource Include="Images\Ventanas\Clientes.png" />
+    <Resource Include="Images\Ventanas\Combo.png" />
+    <Resource Include="Images\Ventanas\Formatos.png" />
+    <Resource Include="Images\Ventanas\Depositos.png" />
+    <Resource Include="Images\Ventanas\Usuarios.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

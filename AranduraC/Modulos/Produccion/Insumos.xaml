@@ -1,0 +1,148 @@
+﻿<Controls:MetroWindow x:Class="AranduraC.Modulos.Produccion.Insumos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:Tools="clr-namespace:Controls;assembly=Controls"
+        xmlns:local="clr-namespace:AranduraC.Modulos.Produccion"
+        mc:Ignorable="d"
+        Title="Insumos" Height="400" Width="1000" MinHeight="400" MinWidth="900" Loaded="MetroWindow_Loaded">
+    <Grid>
+        <Tools:toolBar x:Name="cgtBar" VerticalAlignment="Top"
+                       btnNew_Click="Nuevo" btnEdit_Click="Editar"
+                       btnDelete_Click="Eliminar" btnSave_Click="Guardar" btnCancel_Click="Cancelar"
+                       Ver_Anular="Collapsed"
+                       Ver_Aprobar="Collapsed"
+                       Ver_Credito="Collapsed"
+                       Ver_Imprimir="Collapsed"
+                       Ver_Reporte="Collapsed"/>
+        <Grid x:Name="grdVentana" Margin="0,50,0,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="30*"/>
+            <ColumnDefinition Width="70*"/>
+        </Grid.ColumnDefinitions>
+            <Grid x:Name="gridDataGrid" Grid.Column="0">
+                <TextBox x:Name="tbxFiltro" Controls:TextBoxHelper.Watermark="Buscar por Código o Insumo" Height="26" VerticalAlignment="Top" KeyUp="FiltrarInsumo"/>
+                <DataGrid x:Name="dgvInsumos" SelectionChanged="dataGrid_SelectionChanged" SelectedValuePath="id"
+                      AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False"
+                      ScrollViewer.VerticalScrollBarVisibility="Auto"
+                      ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+                      Background="WhiteSmoke" Margin="0,27,0,0">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="id" Binding="{Binding id}" Width="20*" IsReadOnly="True" Visibility="Collapsed"/>
+                        <DataGridTextColumn Header="Código" Binding="{Binding codigo}" Width="20*" IsReadOnly="True"/>
+                        <DataGridTextColumn Header="Insumo" Binding="{Binding descripcion}" Width="50*" IsReadOnly="True"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+            <Grid x:Name="gridTabControl" Grid.Column="1">
+                <TabControl>
+                    <TabItem Header="Insumo">
+                        <Grid x:Name="gridInsumo" VerticalAlignment="Top" Height="190">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="80"/>
+                                <ColumnDefinition Width="100*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Label Content="Codigo:" HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Column="0"  Grid.Row="0"/>
+                            <TextBox x:Name="txbCod" Grid.Column="1" VerticalAlignment="Center" Height="23" TextWrapping="Wrap" Grid.Row="0"
+                                 Text="{Binding SelectedItem.codigo, ElementName=dgvInsumos, Mode=twoWay, UpdateSourceTrigger=PropertyChanged}"/>
+
+                            <Label Content="Descripción:" HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Column="0"  Grid.Row="1" />
+                            <TextBox x:Name="txbDesc" Grid.Column="1" VerticalAlignment="Center" Height="23" TextWrapping="Wrap" Grid.Row="1"
+                                 Text="{Binding SelectedItem.descripcion, ElementName=dgvInsumos, Mode=twoWay, UpdateSourceTrigger=PropertyChanged}"/>
+
+                            <Label Content="Costo:" HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Column="0"  Grid.Row="2" />
+                            <TextBox x:Name="txbPrecio" Grid.Column="1" VerticalAlignment="Center" Height="23" TextWrapping="Wrap" Grid.Row="2"
+                                 Text="{Binding SelectedItem.costo, ElementName=dgvInsumos, Mode=twoWay, UpdateSourceTrigger=PropertyChanged}"/>
+
+                            <Label Content="Cantidad:" HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Column="0"  Grid.Row="3" />
+                            <TextBox x:Name="txbCant" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left" Width="70" Height="23" TextWrapping="Wrap" Grid.Row="3"
+                                 Text="{Binding SelectedItem.cantidad, ElementName=dgvInsumos, Mode=twoWay, UpdateSourceTrigger=PropertyChanged}"/>
+
+                            <Label x:Name="labelActivo" Content="Estado:" HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Column="0" Grid.Row="4" />
+                            <CheckBox x:Name="chkEstado" Grid.Column="1" HorizontalAlignment="Left" Grid.Row="4" Margin="0,0,0,0" Content="Activo" Click="chkEstado_Click"
+                                  IsChecked="{Binding SelectedItem.estado,ElementName=dgvInsumos,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+                        </Grid>
+                    </TabItem>
+                    <TabItem Header="Caracteristicas">
+                        <Grid x:Name="gridCaracteristicas">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="40"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid Grid.Row="0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="83"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="43"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="55"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="43"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="60"/>
+                                    <ColumnDefinition Width="60"/>
+                                </Grid.ColumnDefinitions>
+                                <Label Content="Caracteristica:" Grid.Column="0" VerticalAlignment="Center"/>
+                                <ComboBox x:Name="cbxCaracteristica" IsEditable="True" Height="23" Grid.Column="1" VerticalAlignment="Center"
+                                      SelectedValuePath="id" DisplayMemberPath="descripcion"
+                                      SelectedValue="{Binding SelectedItem.id, ElementName=dgvCaracteristicas,Mode=OneWay,UpdateSourceTrigger=PropertyChanged}" Margin="0"/>
+
+                                <Label Content="Valor:" Grid.Column="2" VerticalAlignment="Center"/>
+                                <TextBox x:Name="txbValor" Grid.Column="3" Text="" Height="26"/>
+
+                                <Label Content="Medida:" Grid.Column="4" VerticalAlignment="Center"/>
+                                <ComboBox x:Name="cbxUniMedida" IsEditable="True" Height="23" Grid.Column="5" VerticalAlignment="Center"
+                                      SelectedValuePath="id" DisplayMemberPath="descripcion"
+                                      SelectedValue="{Binding SelectedItem.id, ElementName=dgvCaracteristicas,Mode=OneWay,UpdateSourceTrigger=PropertyChanged}"/>
+
+                                <Label Content="Costo:" Grid.Column="6" VerticalAlignment="Center" Visibility="Collapsed"/>
+                                <Tools:ucTbx x:Name="txbCaracCosto" Grid.Column="7" Text="" MaxLenght="11" Height="26" IsNumeric="True" Margin="0,0,1,0" Visibility="Collapsed"/>
+
+                                <Button x:Name="btnAddCarac" Grid.Column="8" Content="Agregar" Height="26" Margin="1,0" Click="btnAddCarac_Click" />
+                                <Button x:Name="btnDelCarac" Grid.Column="9" Content="Eliminar" Height="26" Margin="1,0" Click="btnDelCarac_Click"/>
+                            </Grid>
+                            <Grid Grid.Row="1">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="91*"/>
+                                    <ColumnDefinition Width="198*"/>
+                                </Grid.ColumnDefinitions>
+                                <DataGrid x:Name="dgvInsumoCaracteristicaRel" SelectedValuePath="id"
+                                      AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False"
+                                      ScrollViewer.VerticalScrollBarVisibility="Auto"
+                                      ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+                                      Background="White" Grid.ColumnSpan="2">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="Caracteristica" Binding="{Binding desc_caracteristica}" Width="*" IsReadOnly="True"/>
+                                        <DataGridTextColumn Header="Valor" Binding="{Binding valor}" Width="130" IsReadOnly="True"/>
+                                        <DataGridTextColumn Header="Unidad Medida" Binding="{Binding abreviatura}" Width="130" IsReadOnly="True"/>
+                                        <DataGridTextColumn Header="Costo" Binding="{Binding costo}" Width="*" IsReadOnly="True"/>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                            </Grid>
+                        </Grid>
+                    </TabItem>
+                    <TabItem Header="Productos">
+                        <Grid x:Name="gridProductos">
+                            <DataGrid>
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="Código" Width="20*"/>
+                                    <DataGridTextColumn Header="Producto" Width="60*"/>
+                                    <DataGridTextColumn Header="Precio" Width="20*"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </Grid>
+                    </TabItem>
+                </TabControl>
+            </Grid>
+        </Grid>
+    </Grid>
+</Controls:MetroWindow>

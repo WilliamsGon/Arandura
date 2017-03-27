@@ -1,0 +1,55 @@
+﻿<Controls:MetroWindow x:Class="AranduraC.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:local="clr-namespace:AranduraC"
+        mc:Ignorable="d"
+        Title="Arandurá" Height="600" Width="800" WindowStartupLocation="CenterScreen">
+
+    <Controls:MetroWindow.RightWindowCommands>
+        <Controls:WindowCommands>
+            <Button Name="btnSettings" Content="Ingresar" Click="btnSettings_Click"/>
+        </Controls:WindowCommands>
+    </Controls:MetroWindow.RightWindowCommands>
+
+    <Grid Background="#EEEEEE">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="87*"/>
+            <RowDefinition Height="482*"/>
+        </Grid.RowDefinitions>
+        <Frame x:Name="MainFrame" 
+               NavigationUIVisibility="Hidden" TabIndex="1" 
+               AllowDrop="True" Panel.ZIndex="1" Grid.RowSpan="2">
+            <Frame.Background>
+                <ImageBrush ImageSource="Images/library.jpg"/>
+            </Frame.Background>
+            <Frame.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Frame.RenderTransform>
+        </Frame>
+        <!--<Grid Name="gridControles" Grid.Row="0">
+            <DockPanel LastChildFill="True" >
+                <StackPanel Name="pnlControls" Orientation="Horizontal"/>
+            </DockPanel>
+            --><!--<Panel.Background >
+                
+            </Panel.Background>--><!--
+
+        </Grid>
+        
+        <Grid Name="gridVentanas" Grid.Row="1">
+
+           
+            <WrapPanel Name="pnlVentanas" />
+        </Grid>-->
+
+
+    </Grid>
+</Controls:MetroWindow>

@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DataAccessLayer.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="conexion" Type="System.String" Scope="User">
+      <Value Profile="(Default)">server=localhost;user id=root;password=1234578;database=arandura;persistsecurityinfo=True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

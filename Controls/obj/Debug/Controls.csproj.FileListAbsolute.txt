@@ -1,0 +1,35 @@
+C:\Arandura\Controls\bin\Debug\Controls.dll
+C:\Arandura\Controls\bin\Debug\Controls.pdb
+C:\Arandura\Controls\obj\Debug\Controls.csprojResolveAssemblyReference.cache
+C:\Arandura\Controls\obj\Debug\toolBar.g.cs
+C:\Arandura\Controls\obj\Debug\toolIcon.g.cs
+C:\Arandura\Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Arandura\Controls\obj\Debug\Controls_MarkupCompile.cache
+C:\Arandura\Controls\obj\Debug\Controls_MarkupCompile.lref
+C:\Arandura\Controls\obj\Debug\toolBar.baml
+C:\Arandura\Controls\obj\Debug\toolIcon.baml
+C:\Arandura\Controls\obj\Debug\Controls.g.resources
+C:\Arandura\Controls\obj\Debug\Controls.Properties.Resources.resources
+C:\Arandura\Controls\obj\Debug\Controls.csproj.GenerateResource.Cache
+C:\Arandura\Controls\obj\Debug\Controls.dll
+C:\Arandura\Controls\obj\Debug\Controls.pdb
+D:\Arandura old\Controls\bin\Debug\Controls.dll
+D:\Arandura old\Controls\bin\Debug\Controls.pdb
+D:\Arandura old\Controls\obj\Debug\menuAppIcon.baml
+D:\Arandura old\Controls\obj\Debug\menuIcon.baml
+D:\Arandura old\Controls\obj\Debug\ucTbx.baml
+D:\Arandura old\Controls\obj\Debug\menuAppIcon.g.cs
+D:\Arandura old\Controls\obj\Debug\menuIcon.g.cs
+D:\Arandura old\Controls\obj\Debug\toolBar.g.cs
+D:\Arandura old\Controls\obj\Debug\toolIcon.g.cs
+D:\Arandura old\Controls\obj\Debug\ucTbx.g.cs
+D:\Arandura old\Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Arandura old\Controls\obj\Debug\Controls_MarkupCompile.cache
+D:\Arandura old\Controls\obj\Debug\Controls_MarkupCompile.lref
+D:\Arandura old\Controls\obj\Debug\toolBar.baml
+D:\Arandura old\Controls\obj\Debug\toolIcon.baml
+D:\Arandura old\Controls\obj\Debug\Controls.g.resources
+D:\Arandura old\Controls\obj\Debug\Controls.Properties.Resources.resources
+D:\Arandura old\Controls\obj\Debug\Controls.csproj.GenerateResource.Cache
+D:\Arandura old\Controls\obj\Debug\Controls.dll
+D:\Arandura old\Controls\obj\Debug\Controls.pdb
