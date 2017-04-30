@@ -192,3 +192,6 @@ D:\Proyectos\Project Arandura\AranduraC\obj\Debug\AranduraC.exe.manifest
 D:\Proyectos\Project Arandura\AranduraC\obj\Debug\AranduraC.application
 D:\Proyectos\Project Arandura\AranduraC\obj\Debug\AranduraC.exe
 D:\Proyectos\Project Arandura\AranduraC\obj\Debug\AranduraC.pdb
+C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\bin\Debug\AranduraC.exe.config
+C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\AranduraC.exe
+C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\AranduraC.pdb
