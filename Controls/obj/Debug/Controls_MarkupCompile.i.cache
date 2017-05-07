@@ -4,7 +4,7 @@
 library
 C#
 .cs
-E:\javier\Documents\Github\Arandura\Controls\obj\Debug\
+C:\Users\Williams González\Documents\GitHub\Arandura\Controls\obj\Debug\
 Controls
 none
 false
@@ -12,9 +12,9 @@ DEBUG;TRACE
 
 528163568
 
-13443612169
+13485951716
 141737414579
 menuAppIcon.xaml;menuIcon.xaml;toolBar.xaml;toolIcon.xaml;ucTbx.xaml;
 
-False
+True
 
