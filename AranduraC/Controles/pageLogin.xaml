@@ -46,7 +46,7 @@
                             <ImageBrush x:Name="imgAvatar" Stretch="UniformToFill"/>
                         </Ellipse.Fill>
                     </Ellipse>
-                    <Label Content="Hola"
+                    <Label Content="Bienvenido!"
                                HorizontalContentAlignment="Center" FontSize="32" Foreground="#748905" Margin="5" />
                     <TextBox x:Name="tbxUser" Controls:TextBoxHelper.Watermark="Usuario" HorizontalAlignment="center" TextWrapping="Wrap" VerticalAlignment="center" 
                          Margin="10" Width="256" FontSize="26" />

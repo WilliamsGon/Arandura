@@ -29,3 +29,14 @@ C:\Users\Williams González\Documents\GitHub\Arandura\DataAccessLayer\bin\Debug\
 C:\Users\Williams González\Documents\GitHub\Arandura\DataAccessLayer\bin\Debug\MahApps.Metro.xml
 C:\Users\Williams González\Documents\GitHub\Arandura\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 C:\Users\Williams González\Documents\GitHub\Arandura\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+E:\javier\Documents\Github\Arandura\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+E:\javier\Documents\Github\Arandura\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+E:\javier\Documents\Github\Arandura\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+E:\javier\Documents\Github\Arandura\DataAccessLayer\bin\Debug\MahApps.Metro.dll
+E:\javier\Documents\Github\Arandura\DataAccessLayer\bin\Debug\MySql.Data.dll
+E:\javier\Documents\Github\Arandura\DataAccessLayer\bin\Debug\System.Windows.Interactivity.dll
+E:\javier\Documents\Github\Arandura\DataAccessLayer\bin\Debug\MahApps.Metro.pdb
+E:\javier\Documents\Github\Arandura\DataAccessLayer\bin\Debug\MahApps.Metro.xml
+E:\javier\Documents\Github\Arandura\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+E:\javier\Documents\Github\Arandura\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+E:\javier\Documents\Github\Arandura\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
