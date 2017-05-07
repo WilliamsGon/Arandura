@@ -45,7 +45,7 @@
         <Ellipse x:Name="msgRed" Visibility="Collapsed" Width="40" Height="40" Fill="#FFC93030" 
                  Margin="91,12,19,98" Panel.ZIndex="1" />
         <StackPanel>
-            <Grid x:Name="ico" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center" 
+            <Grid x:Name="ico" Margin="5" VerticalAlignment="Center" HorizontalAlignment="Center" 
                   RenderTransformOrigin="0.5,0.5">
                 <Grid.RenderTransform>
                     <TransformGroup>
@@ -55,8 +55,8 @@
                         <TranslateTransform/>
                     </TransformGroup>
                 </Grid.RenderTransform>
-                <Ellipse x:Name="circle" Width="80" Height="80" Panel.ZIndex="1" Opacity=".3" Fill="#FFFF6464"/>
-                <Image x:Name="imgApp" Height="70" Width="70" Cursor="Hand" Panel.ZIndex="1" Stretch="Fill"/>
+                <Ellipse x:Name="circle" Width="80" Height="80" Panel.ZIndex="1" Opacity=".0" Fill="#FFFF6464"/>
+                <Image x:Name="imgApp" Height="90" Width="90" Cursor="Hand" Panel.ZIndex="1" Stretch="Fill"/>
             </Grid>
         </StackPanel>
     </Grid>

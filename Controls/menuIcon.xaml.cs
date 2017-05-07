@@ -25,12 +25,12 @@ namespace Controls
             InitializeComponent();
         }
 
-        public static readonly DependencyProperty TitleProperty = DependencyProperty.Register("title", typeof(String), typeof(menuAppIcon), new FrameworkPropertyMetadata(string.Empty));
-        public String text
-        {
-            get { return GetValue(TitleProperty).ToString(); }
-            set { SetValue(TitleProperty, value); }
-        }
+        //public static readonly DependencyProperty TitleProperty = DependencyProperty.Register("title", typeof(String), typeof(menuAppIcon), new FrameworkPropertyMetadata(string.Empty));
+        //public String text
+        //{
+        //    get { return GetValue(TitleProperty).ToString(); }
+        //    set { SetValue(TitleProperty, value); }
+        //}
 
         public string IconSource
         {
