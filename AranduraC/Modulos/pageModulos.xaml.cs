@@ -55,7 +55,7 @@ namespace AranduraC.Modulos
         private void load_module(object sender, MouseButtonEventArgs e)
         {
             AutorizacionModel.dataTable.Clear();
-            modName = (sender as Image).Name;
+            modName = (sender as menuIcon).Name;
             FiltrarVentanas();
         }
 
