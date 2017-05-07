@@ -31,20 +31,20 @@ D:\Arandura old\MahApps.Metro.Resources\obj\Debug\MahApps.Metro.Resources.Proper
 D:\Arandura old\MahApps.Metro.Resources\obj\Debug\MahApps.Metro.Resources.csproj.GenerateResource.Cache
 D:\Arandura old\MahApps.Metro.Resources\obj\Debug\MahApps.Metro.Resources.dll
 D:\Arandura old\MahApps.Metro.Resources\obj\Debug\MahApps.Metro.Resources.pdb
-C:\Users\Williams González\Documents\GitHub\Arandura\MahApps.Metro.Resources\bin\Debug\MahApps.Metro.Resources.dll.config
-C:\Users\Williams González\Documents\GitHub\Arandura\MahApps.Metro.Resources\bin\Debug\MahApps.Metro.Resources.dll
-C:\Users\Williams González\Documents\GitHub\Arandura\MahApps.Metro.Resources\bin\Debug\MahApps.Metro.Resources.pdb
-C:\Users\Williams González\Documents\GitHub\Arandura\MahApps.Metro.Resources\bin\Debug\MahApps.Metro.dll
-C:\Users\Williams González\Documents\GitHub\Arandura\MahApps.Metro.Resources\bin\Debug\MySql.Data.dll
-C:\Users\Williams González\Documents\GitHub\Arandura\MahApps.Metro.Resources\bin\Debug\System.Windows.Interactivity.dll
-C:\Users\Williams González\Documents\GitHub\Arandura\MahApps.Metro.Resources\bin\Debug\MahApps.Metro.pdb
-C:\Users\Williams González\Documents\GitHub\Arandura\MahApps.Metro.Resources\bin\Debug\MahApps.Metro.xml
-C:\Users\Williams González\Documents\GitHub\Arandura\MahApps.Metro.Resources\obj\Debug\MahApps.Metro.Resources.csprojResolveAssemblyReference.cache
-C:\Users\Williams González\Documents\GitHub\Arandura\MahApps.Metro.Resources\obj\Debug\Icons.baml
-C:\Users\Williams González\Documents\GitHub\Arandura\MahApps.Metro.Resources\obj\Debug\Icons.g.cs
-C:\Users\Williams González\Documents\GitHub\Arandura\MahApps.Metro.Resources\obj\Debug\MahApps.Metro.Resources_MarkupCompile.cache
-C:\Users\Williams González\Documents\GitHub\Arandura\MahApps.Metro.Resources\obj\Debug\MahApps.Metro.Resources.g.resources
-C:\Users\Williams González\Documents\GitHub\Arandura\MahApps.Metro.Resources\obj\Debug\MahApps.Metro.Resources.Properties.Resources.resources
-C:\Users\Williams González\Documents\GitHub\Arandura\MahApps.Metro.Resources\obj\Debug\MahApps.Metro.Resources.csproj.GenerateResource.Cache
-C:\Users\Williams González\Documents\GitHub\Arandura\MahApps.Metro.Resources\obj\Debug\MahApps.Metro.Resources.dll
-C:\Users\Williams González\Documents\GitHub\Arandura\MahApps.Metro.Resources\obj\Debug\MahApps.Metro.Resources.pdb
+E:\javier\Documents\Github\Arandura\MahApps.Metro.Resources\bin\Debug\MahApps.Metro.Resources.dll.config
+E:\javier\Documents\Github\Arandura\MahApps.Metro.Resources\bin\Debug\MahApps.Metro.Resources.dll
+E:\javier\Documents\Github\Arandura\MahApps.Metro.Resources\bin\Debug\MahApps.Metro.Resources.pdb
+E:\javier\Documents\Github\Arandura\MahApps.Metro.Resources\bin\Debug\MahApps.Metro.dll
+E:\javier\Documents\Github\Arandura\MahApps.Metro.Resources\bin\Debug\MySql.Data.dll
+E:\javier\Documents\Github\Arandura\MahApps.Metro.Resources\bin\Debug\System.Windows.Interactivity.dll
+E:\javier\Documents\Github\Arandura\MahApps.Metro.Resources\bin\Debug\MahApps.Metro.pdb
+E:\javier\Documents\Github\Arandura\MahApps.Metro.Resources\bin\Debug\MahApps.Metro.xml
+E:\javier\Documents\Github\Arandura\MahApps.Metro.Resources\obj\Debug\MahApps.Metro.Resources.csprojResolveAssemblyReference.cache
+E:\javier\Documents\Github\Arandura\MahApps.Metro.Resources\obj\Debug\Icons.baml
+E:\javier\Documents\Github\Arandura\MahApps.Metro.Resources\obj\Debug\Icons.g.cs
+E:\javier\Documents\Github\Arandura\MahApps.Metro.Resources\obj\Debug\MahApps.Metro.Resources_MarkupCompile.cache
+E:\javier\Documents\Github\Arandura\MahApps.Metro.Resources\obj\Debug\MahApps.Metro.Resources.g.resources
+E:\javier\Documents\Github\Arandura\MahApps.Metro.Resources\obj\Debug\MahApps.Metro.Resources.Properties.Resources.resources
+E:\javier\Documents\Github\Arandura\MahApps.Metro.Resources\obj\Debug\MahApps.Metro.Resources.csproj.GenerateResource.Cache
+E:\javier\Documents\Github\Arandura\MahApps.Metro.Resources\obj\Debug\MahApps.Metro.Resources.dll
+E:\javier\Documents\Github\Arandura\MahApps.Metro.Resources\obj\Debug\MahApps.Metro.Resources.pdb

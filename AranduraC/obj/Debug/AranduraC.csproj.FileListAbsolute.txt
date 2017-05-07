@@ -192,72 +192,74 @@ D:\Proyectos\Project Arandura\AranduraC\obj\Debug\AranduraC.exe.manifest
 D:\Proyectos\Project Arandura\AranduraC\obj\Debug\AranduraC.application
 D:\Proyectos\Project Arandura\AranduraC\obj\Debug\AranduraC.exe
 D:\Proyectos\Project Arandura\AranduraC\obj\Debug\AranduraC.pdb
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\bin\Debug\AranduraC.exe.config
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\bin\Debug\AranduraC.exe.manifest
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\bin\Debug\AranduraC.application
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\bin\Debug\AranduraC.exe
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\bin\Debug\AranduraC.pdb
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\bin\Debug\AranduraModel.dll
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\bin\Debug\Controls.dll
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\bin\Debug\DataAccessLayer.dll
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\bin\Debug\MahApps.Metro.dll
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\bin\Debug\MahApps.Metro.Resources.dll
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\bin\Debug\MySql.Data.dll
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\bin\Debug\System.Windows.Interactivity.dll
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\bin\Debug\AranduraModel.pdb
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\bin\Debug\Controls.pdb
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\bin\Debug\DataAccessLayer.pdb
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\bin\Debug\MahApps.Metro.Resources.pdb
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\bin\Debug\MahApps.Metro.pdb
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\bin\Debug\MahApps.Metro.xml
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\AranduraC.csprojResolveAssemblyReference.cache
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\Controles\pageLogin.baml
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\Hijo.baml
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\Modulos\pageModulos.baml
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\VentanasDiseños\admFormatos.baml
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\VentanasDiseños\admPedidos.baml
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\VentanasDiseños\listaPedidos.baml
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\VentanasDiseños\ordenProduccion.baml
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\VentanasDiseños\OrdenUsuario.baml
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\App.baml
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\Controles\pageLogin.g.cs
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\Controles\Sistema Base\ctrlPersonas.g.cs
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\Hijo.g.cs
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\MainWindow.g.cs
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\Modulos\pageModulos.g.cs
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\Modulos\Produccion\ComboMateriaPrima.g.cs
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\Modulos\Produccion\ComboProducto.g.cs
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\Modulos\Produccion\Insumos.g.cs
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\Modulos\Produccion\ListaPedidos.g.cs
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\Modulos\Produccion\OrdenProduccion.g.cs
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\Modulos\Produccion\Productos.g.cs
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\Modulos\Produccion\Seguimiento.g.cs
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\Modulos\Sistema Base\Depositos.g.cs
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\Modulos\Sistema Base\Usuarios.g.cs
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\VentanasDiseños\admFormatos.g.cs
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\VentanasDiseños\admPedidos.g.cs
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\VentanasDiseños\listaPedidos.g.cs
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\VentanasDiseños\ordenProduccion.g.cs
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\VentanasDiseños\OrdenUsuario.g.cs
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\App.g.cs
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\AranduraC_MarkupCompile.cache
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\AranduraC_MarkupCompile.lref
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\Controles\Sistema Base\ctrlPersonas.baml
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\MainWindow.baml
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\Modulos\Produccion\ComboMateriaPrima.baml
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\Modulos\Produccion\ComboProducto.baml
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\Modulos\Produccion\Insumos.baml
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\Modulos\Produccion\ListaPedidos.baml
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\Modulos\Produccion\OrdenProduccion.baml
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\Modulos\Produccion\Productos.baml
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\Modulos\Produccion\Seguimiento.baml
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\Modulos\Sistema Base\Depositos.baml
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\Modulos\Sistema Base\Usuarios.baml
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\AranduraC.g.resources
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\AranduraC.Properties.Resources.resources
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\AranduraC.csproj.GenerateResource.Cache
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\AranduraC.TrustInfo.xml
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\AranduraC.exe.manifest
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\AranduraC.application
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\AranduraC.exe
-C:\Users\Williams González\Documents\GitHub\Arandura\AranduraC\obj\Debug\AranduraC.pdb
+E:\javier\Documents\Github\Arandura\AranduraC\bin\Debug\AranduraC.exe.config
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\AranduraC.exe
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\AranduraC.pdb
+E:\javier\Documents\Github\Arandura\AranduraC\bin\Debug\AranduraC.exe.manifest
+E:\javier\Documents\Github\Arandura\AranduraC\bin\Debug\AranduraC.application
+E:\javier\Documents\Github\Arandura\AranduraC\bin\Debug\AranduraC.exe
+E:\javier\Documents\Github\Arandura\AranduraC\bin\Debug\AranduraC.pdb
+E:\javier\Documents\Github\Arandura\AranduraC\bin\Debug\AranduraModel.dll
+E:\javier\Documents\Github\Arandura\AranduraC\bin\Debug\Controls.dll
+E:\javier\Documents\Github\Arandura\AranduraC\bin\Debug\DataAccessLayer.dll
+E:\javier\Documents\Github\Arandura\AranduraC\bin\Debug\MahApps.Metro.dll
+E:\javier\Documents\Github\Arandura\AranduraC\bin\Debug\MahApps.Metro.Resources.dll
+E:\javier\Documents\Github\Arandura\AranduraC\bin\Debug\MySql.Data.dll
+E:\javier\Documents\Github\Arandura\AranduraC\bin\Debug\System.Windows.Interactivity.dll
+E:\javier\Documents\Github\Arandura\AranduraC\bin\Debug\AranduraModel.pdb
+E:\javier\Documents\Github\Arandura\AranduraC\bin\Debug\Controls.pdb
+E:\javier\Documents\Github\Arandura\AranduraC\bin\Debug\DataAccessLayer.pdb
+E:\javier\Documents\Github\Arandura\AranduraC\bin\Debug\MahApps.Metro.Resources.pdb
+E:\javier\Documents\Github\Arandura\AranduraC\bin\Debug\MahApps.Metro.pdb
+E:\javier\Documents\Github\Arandura\AranduraC\bin\Debug\MahApps.Metro.xml
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\AranduraC.csprojResolveAssemblyReference.cache
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\Controles\pageLogin.baml
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\Hijo.baml
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\Modulos\pageModulos.baml
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\VentanasDiseños\admFormatos.baml
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\VentanasDiseños\admPedidos.baml
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\VentanasDiseños\listaPedidos.baml
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\VentanasDiseños\ordenProduccion.baml
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\VentanasDiseños\OrdenUsuario.baml
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\App.baml
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\Controles\pageLogin.g.cs
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\Controles\Sistema Base\ctrlPersonas.g.cs
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\Hijo.g.cs
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\Hijo2.g.cs
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\MainWindow.g.cs
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\Modulos\pageModulos.g.cs
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\Modulos\Produccion\ComboMateriaPrima.g.cs
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\Modulos\Produccion\ComboProducto.g.cs
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\Modulos\Produccion\Insumos.g.cs
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\Modulos\Produccion\ListaPedidos.g.cs
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\Modulos\Produccion\OrdenProduccion.g.cs
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\Modulos\Produccion\Productos.g.cs
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\Modulos\Produccion\Seguimiento.g.cs
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\Modulos\Sistema Base\Depositos.g.cs
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\Modulos\Sistema Base\Usuarios.g.cs
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\VentanasDiseños\admFormatos.g.cs
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\VentanasDiseños\admPedidos.g.cs
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\VentanasDiseños\listaPedidos.g.cs
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\VentanasDiseños\ordenProduccion.g.cs
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\VentanasDiseños\OrdenUsuario.g.cs
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\App.g.cs
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\AranduraC_MarkupCompile.cache
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\AranduraC_MarkupCompile.lref
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\Controles\Sistema Base\ctrlPersonas.baml
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\Hijo2.baml
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\MainWindow.baml
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\Modulos\Produccion\ComboMateriaPrima.baml
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\Modulos\Produccion\ComboProducto.baml
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\Modulos\Produccion\Insumos.baml
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\Modulos\Produccion\ListaPedidos.baml
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\Modulos\Produccion\OrdenProduccion.baml
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\Modulos\Produccion\Productos.baml
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\Modulos\Produccion\Seguimiento.baml
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\Modulos\Sistema Base\Depositos.baml
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\Modulos\Sistema Base\Usuarios.baml
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\AranduraC.g.resources
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\AranduraC.Properties.Resources.resources
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\AranduraC.csproj.GenerateResource.Cache
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\AranduraC.TrustInfo.xml
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\AranduraC.exe.manifest
+E:\javier\Documents\Github\Arandura\AranduraC\obj\Debug\AranduraC.application
