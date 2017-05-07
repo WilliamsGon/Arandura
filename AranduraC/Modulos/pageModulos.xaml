@@ -17,7 +17,7 @@
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
     </Page.Resources>
-    <Grid x:Name="LayoutRoot" Height="600" Width="800">
+    <Grid x:Name="LayoutRoot" MinHeight="600" MinWidth="800">
         <Grid.RowDefinitions>
             <RowDefinition Height="53*"/>
             <RowDefinition Height="197*"/>
@@ -27,8 +27,8 @@
                 <SolidColorBrush Color="White" Opacity="0.5"/>
             </Grid.Background>
             <StackPanel Name="stckModulos" Orientation="Horizontal" HorizontalAlignment="Center" Opacity="1">
-                <Controls:menuIcon x:Name="Produccion" MouseUp="load_module" IconSource="/AranduraC;component/Images/Menu/Produccion.png"/>
-                <Controls:menuIcon x:Name="Configuracion" MouseUp="load_module" IconSource="/AranduraC;component/Images/Menu/Configuracion.png"/>
+                <Controls:menuIcon x:Name="Produccion" MouseUp="load_module" IconSource="/AranduraC;component/Images/Modulos/Produccion.png"/>
+                <Controls:menuIcon x:Name="Configuracion" MouseUp="load_module" IconSource="/AranduraC;component/Images/Modulos/Configuracion.png"/>
                 <!--<Image x:Name="Produccion" MouseUp="load_module" Source="/AranduraC;component/Images/Menu/Produccion.png" Stretch="UniformToFill" Height="85"/>-->
                 <!--<Image x:Name="Configuracion" MouseUp="load_module" Source="/AranduraC;component/Images/Menu/Configuracion.png" Stretch="UniformToFill" Height="85"/>-->
             </StackPanel>
@@ -39,6 +39,5 @@
             </Grid.Background>
             <WrapPanel Name="wrapVentanas" Opacity="1"/>
         </Grid>
-
     </Grid>
 </Page>

@@ -118,7 +118,7 @@ namespace Controls
             {
                 btnSave_Click(this);
             }
-            //MenuDisabled();
+            MenuDisabled();
         }
 
         //CANCEL
@@ -130,7 +130,7 @@ namespace Controls
             {
                 btnCancel_Click(this);
             }
-            //MenuDisabled();
+            MenuDisabled();
         }
 
         //CREDIT

@@ -288,17 +288,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\modCompras.png" />
-    <Resource Include="Images\Menu\Configuracion.png" />
-    <Resource Include="Images\modContabilidad.png" />
-    <Resource Include="Images\modFav.png" />
-    <Resource Include="Images\modGerencia.png" />
-    <Resource Include="Images\modLink.png" />
-    <Resource Include="Images\modProductionOld.png" />
-    <Resource Include="Images\modProject.png" />
-    <Resource Include="Images\modRRHH.png" />
-    <Resource Include="Images\modStock.png" />
-    <Resource Include="Images\modVentas.png" />
+    <Resource Include="Images\Modulos\Configuracion.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AranduraModel\AranduraModel.csproj">
@@ -324,13 +314,6 @@
     <Folder Include="Modulos\Venta\" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\modHome.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\modProduction.png" />
-    <Resource Include="Images\modShopping.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\library.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -352,7 +335,7 @@
     <Resource Include="Images\IconTool\add_48dp.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\Menu\Produccion.png" />
+    <Resource Include="Images\Modulos\Produccion.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\avatarUnknown.png" />
