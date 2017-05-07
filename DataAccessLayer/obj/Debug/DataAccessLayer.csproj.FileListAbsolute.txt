@@ -27,5 +27,6 @@ C:\Users\Williams González\Documents\GitHub\Arandura\DataAccessLayer\bin\Debug\
 C:\Users\Williams González\Documents\GitHub\Arandura\DataAccessLayer\bin\Debug\System.Windows.Interactivity.dll
 C:\Users\Williams González\Documents\GitHub\Arandura\DataAccessLayer\bin\Debug\MahApps.Metro.pdb
 C:\Users\Williams González\Documents\GitHub\Arandura\DataAccessLayer\bin\Debug\MahApps.Metro.xml
+C:\Users\Williams González\Documents\GitHub\Arandura\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
 C:\Users\Williams González\Documents\GitHub\Arandura\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 C:\Users\Williams González\Documents\GitHub\Arandura\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

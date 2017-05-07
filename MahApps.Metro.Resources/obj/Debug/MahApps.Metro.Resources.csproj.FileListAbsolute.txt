@@ -39,6 +39,7 @@ C:\Users\Williams González\Documents\GitHub\Arandura\MahApps.Metro.Resources\bi
 C:\Users\Williams González\Documents\GitHub\Arandura\MahApps.Metro.Resources\bin\Debug\System.Windows.Interactivity.dll
 C:\Users\Williams González\Documents\GitHub\Arandura\MahApps.Metro.Resources\bin\Debug\MahApps.Metro.pdb
 C:\Users\Williams González\Documents\GitHub\Arandura\MahApps.Metro.Resources\bin\Debug\MahApps.Metro.xml
+C:\Users\Williams González\Documents\GitHub\Arandura\MahApps.Metro.Resources\obj\Debug\MahApps.Metro.Resources.csprojResolveAssemblyReference.cache
 C:\Users\Williams González\Documents\GitHub\Arandura\MahApps.Metro.Resources\obj\Debug\Icons.baml
 C:\Users\Williams González\Documents\GitHub\Arandura\MahApps.Metro.Resources\obj\Debug\Icons.g.cs
 C:\Users\Williams González\Documents\GitHub\Arandura\MahApps.Metro.Resources\obj\Debug\MahApps.Metro.Resources_MarkupCompile.cache
