@@ -14,6 +14,7 @@ using System.Windows.Shapes;
 using MahApps.Metro.Controls;
 using System.Data;
 using System.Collections;
+using AranduraC.Controles;
 
 
 namespace AranduraC.Modulos.Produccion

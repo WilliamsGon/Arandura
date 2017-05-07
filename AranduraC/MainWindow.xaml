@@ -10,7 +10,7 @@
 
     <Controls:MetroWindow.RightWindowCommands>
         <Controls:WindowCommands>
-            <Button Name="btnSettings" Content="Ingresar" Click="btnSettings_Click"/>
+            <Button Name="btnSettings" Content="Desconectar" Click="btnLogout_Click"/>
         </Controls:WindowCommands>
     </Controls:MetroWindow.RightWindowCommands>
 
@@ -34,22 +34,5 @@
                 </TransformGroup>
             </Frame.RenderTransform>
         </Frame>
-        <!--<Grid Name="gridControles" Grid.Row="0">
-            <DockPanel LastChildFill="True" >
-                <StackPanel Name="pnlControls" Orientation="Horizontal"/>
-            </DockPanel>
-            --><!--<Panel.Background >
-                
-            </Panel.Background>--><!--
-
-        </Grid>
-        
-        <Grid Name="gridVentanas" Grid.Row="1">
-
-           
-            <WrapPanel Name="pnlVentanas" />
-        </Grid>-->
-
-
     </Grid>
 </Controls:MetroWindow>

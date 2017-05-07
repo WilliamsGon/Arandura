@@ -111,6 +111,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Controles\metodos.cs" />
     <Compile Include="Controles\pageLogin.xaml.cs">
       <DependentUpon>pageLogin.xaml</DependentUpon>
     </Compile>
@@ -174,10 +175,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Hijo2.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -188,9 +185,6 @@
     </Compile>
     <Compile Include="Hijo.xaml.cs">
       <DependentUpon>Hijo.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Hijo2.xaml.cs">
-      <DependentUpon>Hijo2.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -330,9 +324,6 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\IconTool\add_48dp.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\Modulos\Produccion.png" />
