@@ -37,16 +37,3 @@ D:\Proyectos\Project Arandura\AranduraModel\bin\Debug\MahApps.Metro.xml
 D:\Proyectos\Project Arandura\AranduraModel\obj\Debug\AranduraModel.csprojResolveAssemblyReference.cache
 D:\Proyectos\Project Arandura\AranduraModel\obj\Debug\AranduraModel.dll
 D:\Proyectos\Project Arandura\AranduraModel\obj\Debug\AranduraModel.pdb
-E:\javier\Documents\Github\Arandura\AranduraModel\bin\Debug\AranduraModel.dll.config
-E:\javier\Documents\Github\Arandura\AranduraModel\bin\Debug\AranduraModel.dll
-E:\javier\Documents\Github\Arandura\AranduraModel\bin\Debug\AranduraModel.pdb
-E:\javier\Documents\Github\Arandura\AranduraModel\bin\Debug\DataAccessLayer.dll
-E:\javier\Documents\Github\Arandura\AranduraModel\bin\Debug\MahApps.Metro.dll
-E:\javier\Documents\Github\Arandura\AranduraModel\bin\Debug\MySql.Data.dll
-E:\javier\Documents\Github\Arandura\AranduraModel\bin\Debug\System.Windows.Interactivity.dll
-E:\javier\Documents\Github\Arandura\AranduraModel\bin\Debug\DataAccessLayer.pdb
-E:\javier\Documents\Github\Arandura\AranduraModel\bin\Debug\MahApps.Metro.pdb
-E:\javier\Documents\Github\Arandura\AranduraModel\bin\Debug\MahApps.Metro.xml
-E:\javier\Documents\Github\Arandura\AranduraModel\obj\Debug\AranduraModel.csprojResolveAssemblyReference.cache
-E:\javier\Documents\Github\Arandura\AranduraModel\obj\Debug\AranduraModel.dll
-E:\javier\Documents\Github\Arandura\AranduraModel\obj\Debug\AranduraModel.pdb
