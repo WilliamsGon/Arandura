@@ -1,6 +1,7 @@
 C:\Users\Williams González\Documents\GitHub\Arandura\AranduraEF\bin\Debug\AranduraEF.exe.config
 C:\Users\Williams González\Documents\GitHub\Arandura\AranduraEF\bin\Debug\AranduraEF.exe
 C:\Users\Williams González\Documents\GitHub\Arandura\AranduraEF\bin\Debug\AranduraEF.pdb
+C:\Users\Williams González\Documents\GitHub\Arandura\AranduraEF\obj\Debug\AranduraEF.csprojResolveAssemblyReference.cache
 C:\Users\Williams González\Documents\GitHub\Arandura\AranduraEF\obj\Debug\MainWindow.g.cs
 C:\Users\Williams González\Documents\GitHub\Arandura\AranduraEF\obj\Debug\App.g.cs
 C:\Users\Williams González\Documents\GitHub\Arandura\AranduraEF\obj\Debug\AranduraEF_MarkupCompile.cache

@@ -35,6 +35,7 @@ D:\Arandura old\Controls\obj\Debug\Controls.dll
 D:\Arandura old\Controls\obj\Debug\Controls.pdb
 C:\Users\Williams González\Documents\GitHub\Arandura\Controls\bin\Debug\Controls.dll
 C:\Users\Williams González\Documents\GitHub\Arandura\Controls\bin\Debug\Controls.pdb
+C:\Users\Williams González\Documents\GitHub\Arandura\Controls\obj\Debug\Controls.csprojResolveAssemblyReference.cache
 C:\Users\Williams González\Documents\GitHub\Arandura\Controls\obj\Debug\menuAppIcon.baml
 C:\Users\Williams González\Documents\GitHub\Arandura\Controls\obj\Debug\menuIcon.baml
 C:\Users\Williams González\Documents\GitHub\Arandura\Controls\obj\Debug\ucTbx.baml
