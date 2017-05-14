@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace AranduraC.Controles
+namespace Metodos
 {
-    public partial class metodos
+    public class Metodos
     {
         public void isNumeric(object sender, KeyEventArgs e)
         {
@@ -17,6 +17,4 @@ namespace AranduraC.Controles
                 e.Handled = true;
         }
     }
-
-    //XAVI FEO
 }

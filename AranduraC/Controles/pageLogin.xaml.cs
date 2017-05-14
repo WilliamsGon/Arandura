@@ -56,5 +56,12 @@ namespace AranduraC.Controles
                 fraim.Navigate(new AranduraC.Modulos.pageModulos(tbxUser.Text));
             }
         }
+
+        private void TextBox_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.Key != System.Windows.Input.Key.Enter) return;
+
+            btnLogIn_Click(sender,e);
+        }
     }
 }

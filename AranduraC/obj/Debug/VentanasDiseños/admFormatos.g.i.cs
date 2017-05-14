@@ -9,10 +9,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using AranduraC.Controles.Sistema_Base;
-using AranduraC.Modulos.Produccion;
-using AranduraC.Modulos.Sistema_Base;
-using Controls;
 using MahApps.Metro.Controls;
 using System;
 using System.Diagnostics;
