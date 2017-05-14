@@ -143,6 +143,24 @@
   <ItemGroup>
     <Resource Include="Images\tool_icon\Report.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\tool_icon2\Available_Updates_100.png" />
+    <Resource Include="Images\tool_icon2\Cancel_100.png" />
+    <Resource Include="Images\tool_icon2\Full_Trash_100.png" />
+    <Resource Include="Images\tool_icon2\Pencil_100.png" />
+    <Resource Include="Images\tool_icon2\Plus_100.png" />
+    <Resource Include="Images\tool_icon2\Print_100.png" />
+    <Resource Include="Images\tool_icon2\Report_100.png" />
+    <Resource Include="Images\tool_icon2\Save_100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\tool_icon2\Checked_100.png" />
+    <Resource Include="Images\tool_icon2\Approve_100.png" />
+    <Resource Include="Images\tool_icon2\Disapprove_100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\tool_icon2\Calendar_100.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

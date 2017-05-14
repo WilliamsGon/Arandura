@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Controls"
              
-             MaxHeight="90" MinWidth="500">
+             MaxHeight="50" MinWidth="500">
     <UserControl.Resources>
         <Storyboard x:Key="OpenMessage">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="msgGrid">
@@ -25,7 +25,8 @@
     
     <Grid Background="White">
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
-            <local:toolIcon x:Name="btnNew" MouseUp="btnNew_MouseUp" img="Images/tool_icon/1_Add_File.png" hideLabel="Collapsed" label="Agregar"/>
+            <!--<local:toolIcon x:Name="btnNew" MouseUp="btnNew_MouseUp" 
+                                                 img="Images/tool_icon/1_Add_File.png" hideLabel="Collapsed" label="Agregar"/>
             <local:toolIcon x:Name="btnEdit" MouseUp="btnEdit_MouseUp"
                                                  img="Images/tool_icon/2_Edit_File.png" hideLabel="Collapsed" label="Editar"/>
             <local:toolIcon x:Name="btnDelete" MouseUp="btnDelete_MouseUp"
@@ -34,10 +35,21 @@
             <local:toolIcon x:Name="btnSave" MouseUp="btnSave_MouseUp"
                                                  img="Images/tool_icon/Save.png" hideLabel="Collapsed" label="Guardar"/>
             <local:toolIcon x:Name="btnCancel" MouseUp="btnCancel_MouseUp"
-                                                 img="Images/tool_icon/Cancel_2.png" hideLabel="Collapsed" label="Cancelar"/>
+                                                 img="Images/tool_icon/Cancel_2.png" hideLabel="Collapsed" label="Cancelar"/>-->
+            <local:toolIcon x:Name="btnNew" MouseUp="btnNew_MouseUp" 
+                                                 img="Images/tool_icon2/Plus_100.png" hideLabel="Collapsed" label="Agregar"/>
+            <local:toolIcon x:Name="btnEdit" MouseUp="btnEdit_MouseUp"
+                                                 img="Images/tool_icon2/Pencil_100.png" hideLabel="Collapsed" label="Editar"/>
+            <local:toolIcon x:Name="btnDelete" MouseUp="btnDelete_MouseUp"
+                                                 img="Images/tool_icon2/Full_Trash_100.png" hideLabel="Collapsed" label="Eliminar"/>
+            <Rectangle Width="1" Stroke="gainsboro" Margin="5"/>
+            <local:toolIcon x:Name="btnSave" MouseUp="btnSave_MouseUp"
+                                                 img="Images/tool_icon2/Save_100.png" hideLabel="Collapsed" label="Guardar"/>
+            <local:toolIcon x:Name="btnCancel" MouseUp="btnCancel_MouseUp"
+                                                 img="Images/tool_icon2/Cancel_100.png" hideLabel="Collapsed" label="Cancelar"/>
         </StackPanel>
         <StackPanel x:Name="stackBasicExtended" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Top">
-            <local:toolIcon x:Name="btnReport" MouseUp="btnReport_MouseUp"
+            <!--<local:toolIcon x:Name="btnReport" MouseUp="btnReport_MouseUp"
                                                  img="Images/tool_icon/Report.png" hideLabel="Collapsed" label="Reporte"/>
             <local:toolIcon x:Name="btnPrint" MouseUp="btnPrint_MouseUp"
                                                  img="Images/tool_icon/Print.png" hideLabel="Collapsed" label="Imprimir"/>
@@ -47,7 +59,19 @@
             <local:toolIcon x:Name="btnApprove" MouseUp="btnApprove_MouseUp"
                                                  img="Images/tool_icon/Checked.png" hideLabel="Collapsed" label="Aprobar"/>
             <local:toolIcon x:Name="btnAnull" MouseUp="btnAnull_MouseUp" 
-                                                 img="Images/tool_icon/Cancel.png" hideLabel="Collapsed" label="Anular"/>
+                                                 img="Images/tool_icon/Cancel.png" hideLabel="Collapsed" label="Anular"/>-->
+            
+            <local:toolIcon x:Name="btnReport" MouseUp="btnReport_MouseUp"
+                                                 img="Images/tool_icon2/Report_100.png" hideLabel="Collapsed" label="Reporte"/>
+            <local:toolIcon x:Name="btnPrint" MouseUp="btnPrint_MouseUp"
+                                                 img="Images/tool_icon2/Print_100.png" hideLabel="Collapsed" label="Imprimir"/>
+            <local:toolIcon x:Name="btnCredit" MouseUp="btnCredit_MouseUp"
+                                                 img="Images/tool_icon2/Calendar_100.png" hideLabel="Collapsed" label="Credito"/>
+            <Rectangle x:Name="RectangleCred" Width="1" Stroke="gainsboro" Margin="5"/>
+            <local:toolIcon x:Name="btnApprove" MouseUp="btnApprove_MouseUp"
+                                                 img="Images/tool_icon2/Approve_100.png" hideLabel="Collapsed" label="Aprobar"/>
+            <local:toolIcon x:Name="btnAnull" MouseUp="btnAnull_MouseUp" 
+                                                 img="Images/tool_icon2/Disapprove_100.png" hideLabel="Collapsed" label="Anular"/>
         </StackPanel>
     </Grid>
 </UserControl>
