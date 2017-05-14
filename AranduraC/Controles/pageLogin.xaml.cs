@@ -57,10 +57,10 @@ namespace AranduraC.Controles
             }
         }
 
+        //Este metodo captura el evento ENTER y llama al metodo para iniciar Sesión
         private void TextBox_KeyUp(object sender, KeyEventArgs e)
         {
             if (e.Key != System.Windows.Input.Key.Enter) return;
-
             btnLogIn_Click(sender,e);
         }
     }
