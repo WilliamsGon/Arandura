@@ -92,50 +92,68 @@ namespace AranduraC.Modulos
                  if (btn.Name.ToString().ToUpper() == "PRODUCTOS")
                 {
                     Produccion.Productos Productos = new Produccion.Productos();
-                    Productos.ShowDialog();
+                    Productos.WindowStartupLocation = WindowStartupLocation.CenterScreen;
+                    //Productos.ShowDialog();
+                    Productos.Show();
                 }
 
                  if (btn.Name.ToString().ToUpper() == "USUARIOS")
                 {
                     Sistema_Base.Usuarios Usuarios = new Sistema_Base.Usuarios();
-                    Usuarios.ShowDialog();
+                    Usuarios.WindowStartupLocation = WindowStartupLocation.CenterScreen;
+                    //Usuarios.ShowDialog();
+                    Usuarios.Show();
                 }
 
                 if (btn.Name.ToString().ToUpper() == "INSUMOS")
                 {
                     Produccion.Insumos Insumos = new Produccion.Insumos();
-                    Insumos.ShowDialog();
+                    Insumos.WindowStartupLocation = WindowStartupLocation.CenterScreen;
+                    //Insumos.ShowDialog();
+                    Insumos.Show();
                 }
 
                 if (btn.Name.ToString().ToUpper() == "COMBO")
                 {
                     Produccion.ComboMateriaPrima ComboMateriaPrima = new Produccion.ComboMateriaPrima();
-                    ComboMateriaPrima.ShowDialog();
+                    ComboMateriaPrima.WindowStartupLocation = WindowStartupLocation.CenterScreen;
+                    //ComboMateriaPrima.ShowDialog();
+                    ComboMateriaPrima.Show();
                 }
                 if (btn.Name.ToString().ToUpper() == "DEPOSITOS")
                 {
                     Sistema_Base.Depositos Depositos = new Sistema_Base.Depositos();
-                    Depositos.ShowDialog();
+                    Depositos.WindowStartupLocation = WindowStartupLocation.CenterScreen;
+                    //Depositos.ShowDialog();
+                    Depositos.Show();
                 }
                 if (btn.Name.ToString().ToUpper() == "SEGUIMIENTO")
                 {
                     Produccion.Seguimiento Seguimiento = new Produccion.Seguimiento();
-                    Seguimiento.ShowDialog();
+                    Seguimiento.WindowStartupLocation = WindowStartupLocation.CenterScreen;
+                    //Seguimiento.ShowDialog();
+                    Seguimiento.Show();
                 }
                 if (btn.Name.ToString().ToUpper() == "PEDIDOS")
                 {
                     Produccion.ListaPedidos ListaPedidos = new Produccion.ListaPedidos();
-                    ListaPedidos.ShowDialog();
+                    ListaPedidos.WindowStartupLocation = WindowStartupLocation.CenterScreen;
+                    //ListaPedidos.ShowDialog();
+                    ListaPedidos.Show();
                 }
                 if (btn.Name.ToString().ToUpper() == "ORDEN")
                 {
                     Produccion.OrdenProduccion OrdenProduccion = new Produccion.OrdenProduccion();
-                    OrdenProduccion.ShowDialog();
+                    OrdenProduccion.WindowStartupLocation = WindowStartupLocation.CenterScreen;
+                    //OrdenProduccion.ShowDialog();
+                    OrdenProduccion.Show();
                 }
                 if (btn.Name.ToString().ToUpper() == "PRODUCTOS_COMBO")
                 {
                     AranduraC.Modulos.Produccion.ComboProducto ComboProducto = new Modulos.Produccion.ComboProducto();
-                    ComboProducto.ShowDialog();
+                    ComboProducto.WindowStartupLocation = WindowStartupLocation.CenterScreen;
+                    //ComboProducto.ShowDialog();
+                    ComboProducto.Show();
                 }
             }
         }
