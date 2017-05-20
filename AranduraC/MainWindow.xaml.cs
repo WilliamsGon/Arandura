@@ -53,7 +53,7 @@ namespace AranduraC
         {
             foreach (Window win in App.Current.Windows)
             {
-                if (!win.IsFocused/* && win.Tag.ToString() == "mdi_child"*/)
+                if (!win.IsFocused)
                 {
                     win.Close();
                 }
