@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AranduraC.exe" size="497664">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AranduraC.exe" size="500224">
       <assemblyIdentity name="AranduraC" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ZLINQ1fta3QE6fM8KezC7oxeI95vqEjCLqQhwGUqbVc=</dsig:DigestValue>
+        <dsig:DigestValue>ECTaB2W+grjL+FkCLugyBmVhuog2pKjG79+gEVqHAJM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,7 +62,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>2bhETBHs9VLGbs80dzwLkes0GrLvE4NSoR0Mf7UPMUw=</dsig:DigestValue>
+        <dsig:DigestValue>OfTyohz797+SAOwq6dGZnapweY1VSt0+Uy+ZNVNq7jQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -74,7 +74,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>7YBrO2SAaFxMoePJn85e4ISTPl57FxKgq4hu3uAyaXU=</dsig:DigestValue>
+        <dsig:DigestValue>oDEEXF7aXjriYSw4hK3Xo5iAl7AwwPCDqwDm7IgjJf8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -86,7 +86,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ZCELihkDlVzT2dGI3foOJBE/ksPIzhnJLdLo21hpU1s=</dsig:DigestValue>
+        <dsig:DigestValue>u422Akibl/uW88iVGPS3ZHwOTn8w08/sE8R9YeLKzK4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -110,7 +110,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>AtGOIlECwZVshlP8IZ76fSPk44VpQUR3No4v4anabwc=</dsig:DigestValue>
+        <dsig:DigestValue>ANKmgDhc6QnPNW369fQ6pfkyzj2K442vXztDz3+I/KI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

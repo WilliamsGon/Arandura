@@ -6,7 +6,7 @@
         xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
         xmlns:local="clr-namespace:AranduraC"
         mc:Ignorable="d"
-        Title="Arandurá" Height="600" Width="800" WindowStartupLocation="CenterScreen">
+        Title="Arandurá" Height="600" Width="800" WindowStartupLocation="CenterScreen" Closed="MetroWindow_Closed" Closing="MetroWindow_Closing">
 
     <Controls:MetroWindow.RightWindowCommands>
         <Controls:WindowCommands>
