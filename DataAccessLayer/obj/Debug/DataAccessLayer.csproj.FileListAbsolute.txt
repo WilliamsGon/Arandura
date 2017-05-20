@@ -19,13 +19,3 @@ D:\Arandura old\DataAccessLayer\bin\Debug\MahApps.Metro.pdb
 D:\Arandura old\DataAccessLayer\bin\Debug\MahApps.Metro.xml
 D:\Arandura old\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 D:\Arandura old\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
-C:\Users\Williams González\Documents\GitHub\Arandura\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
-C:\Users\Williams González\Documents\GitHub\Arandura\DataAccessLayer\bin\Debug\DataAccessLayer.dll
-C:\Users\Williams González\Documents\GitHub\Arandura\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
-C:\Users\Williams González\Documents\GitHub\Arandura\DataAccessLayer\bin\Debug\MahApps.Metro.dll
-C:\Users\Williams González\Documents\GitHub\Arandura\DataAccessLayer\bin\Debug\MySql.Data.dll
-C:\Users\Williams González\Documents\GitHub\Arandura\DataAccessLayer\bin\Debug\System.Windows.Interactivity.dll
-C:\Users\Williams González\Documents\GitHub\Arandura\DataAccessLayer\bin\Debug\MahApps.Metro.pdb
-C:\Users\Williams González\Documents\GitHub\Arandura\DataAccessLayer\bin\Debug\MahApps.Metro.xml
-C:\Users\Williams González\Documents\GitHub\Arandura\DataAccessLayer\obj\Debug\DataAccessLayer.dll
-C:\Users\Williams González\Documents\GitHub\Arandura\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
